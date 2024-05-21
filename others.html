@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>
+            embed
+        </title>
+    </head>
+      
+      <body>
+          <h1>ページ一覧</h1>
+          <h2><a href="/scripts">スクリプト配布</a></h2>
+          <main>
+              僕が作った便利なScratch用のスクリプトを置いています。
+          </main>
+          <h2>
+            <a href="/article">記事一覧</a>
+          </h2>
+          <main>
+            僕が思った事をTwitterよりもしっかりまとめて投稿しています。
+          </main>
+          <h1>その他諸々（宣伝とか）</h1>
+          <h2><a href="https://e6nqla.github.io/Scratch-intro-com/">Scratch.work.com</a></h2>
+          <main>
+              1998さんらと共同開発中のScratchのintroについてのウェブサイトです。
+          </main>
+          <h1>相互リンク</h1>
+          <main>相互リンク申込みは<a href="https://scratch.mit.edu/users/-5min-/#comments">こちら</a>にてお願いします。気軽に遊びに来てください。</main>
+          <ul>
+            <li class="li">
+                <a href="https://atridott.github.io/">
+                    <img src="https://uploads.scratch.mit.edu/get_image/user/92614120_60x60.png" width="25" height="25">
+                    Atridott
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://www.kobakoo.com">
+                    <img src="https://uploads.scratch.mit.edu/get_image/user/79453633_60x60.png" width="25" height="25">
+                    Kobako
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://1998ky262.github.io">
+                    <img src="https://avatars.githubusercontent.com/u/106678831?v=4" width="25" height="25">
+                    1998
+                </a>
+            </li>
+              
+              <li class="li">
+                <a href="https://psc.pages.dev/">
+                    <img src="https://avatars.githubusercontent.com/u/103930835?v=4" width="25" height="25">
+                    pscore23
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://supapiweb.glitch.me/index.html">
+                    <img src="https://pbs.twimg.com/profile_images/1571865150894002176/36_NSdYQ_400x400.jpg" width="25" height="25">
+                    卑弥呼系ラーメン
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://nakakoutv.github.io">
+                    <img src="https://pbs.twimg.com/profile_images/1540864867112202240/b4bSqFqG_400x400.jpg" width="25" height="25">
+                    Nakakou（様）のホームページ
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://sites.google.com/view/rrr-jp">
+                    <img src="https://uploads.scratch.mit.edu/get_image/user/68083553_60x60.png" width="25" height="25">
+                    RRR-jp
+                </a>
+            </li>
+              <li class="li">
+                <a href="https://ptbnth.github.io">
+                    <img src="https://uploads.scratch.mit.edu/get_image/user/84423666_60x60.png" width="25" height="25">
+                    Patiban
+                </a>
+            </li>
+          </ul>
+          <style>
+              body{padding-top:30px;}
+              .li{margin-bottom:10px;vertical-align: middle;list-style: inside;}img{vertical-align: bottom;}
+              </style>
+          <script src="/include.js"></script>
+        <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+                var header = document.getElementsByTagName("header")[0];
+                header.remove();
+                var iframe = document.getElementsByTagName("iframe")[0];
+                iframe.remove();
+                var href=document.getElementsByTagName("a");
+                for(let i=0;i<href.length;i++){
+                    href[i].target="_parent";
+                }
+            document.getElementById("infooter").remove();
+            });
+        </script>
+      </body>
+  </html>
+  
