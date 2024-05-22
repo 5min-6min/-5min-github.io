@@ -63,7 +63,7 @@ head.insertAdjacentHTML('beforeend', `
         document.getElementById("_shadow").style.height="0";
     });
     if(location.pathname=="/others"){return}
-   (async()=>{let visitorcount=await (await fetch("https://visitorcounts.haru-ymth.repl.co",{method:"POST",body:JSON.stringify({url:location.origin+location.pathname})})).text();
+   (async()=>{let visitorcount=await (await fetch("https://scratch.mit.edu",{method:"POST",body:JSON.stringify({url:location.origin+location.pathname})})).text();
 let visitorcount2=document.createElement("div");
 visitorcount2.style="margin-top:50px;"
 visitorcount2.innerText="このページが読み込まれた回数："+visitorcount;
